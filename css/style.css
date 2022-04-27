@@ -1,0 +1,104 @@
+
+body {
+    text-align: center;
+    font-family: 'Klee One', cursive;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Navbar */
+
+#title .navbar-logo {
+    font-family: 'Architects Daughter', cursive;
+    color: #E1A105;
+}
+
+/* Title */
+
+.title-main {
+    padding: 7% 15%;
+}
+
+.title-img {
+    width: 40%;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 5%;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    /* color: #E1A105; */
+    color: #F2DE76;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #E1A105;
+    /* color: #F5A31F; */
+    /* color: #F2DE76; */
+}
+
+.feature-card {
+    border: none;
+}
+
+/* Images */
+
+#carousel-images {
+    background-color: #F2DE76;
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 7% 5%;
+}
+
+.card-box {
+    padding: 0 3%;
+}
+
+.card-title {
+    background-color: #F2DE76;
+}
+
+/* Footer */
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-contact {
+    padding: 5% 15%;
+}
+
+.footer-icon {
+    margin: 2% 2%;
+}
+
+.footer-icon:hover {
+    color: #E1A105;
+}
+
+@media (max-width: 599px) {
+
+    .title-text {
+        font-size: 1.4rem;
+    }
+
+    .title-img {
+        width: 70%;
+    }
+
+}
